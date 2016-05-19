@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       options: {separator: ';\n'},
       dist: {
         src: ['public/client/*.js'],
-        dest: 'public/dist/<%= pkg.name %>_<%= grunt.template.today("yyyy-mm-dd") %>.js'
+        dest: 'public/dist/<%= pkg.name %>.js'
       }
     },
 
